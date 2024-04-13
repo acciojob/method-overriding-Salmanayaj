@@ -9,7 +9,7 @@ public class Main {
         B obj = new B();
         System.out.println(obj.meth());
     }
-    public class A{
+    public static class A{
 
         public String meth(){
             return "Invoking Method from Class A";
