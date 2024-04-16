@@ -8,6 +8,7 @@ public class Main {
 
         B obj = new B();
         obj.meth();
+        obj.meth();
     }
     public static class A{
 
@@ -18,6 +19,7 @@ public class Main {
     public static class B extends A{
         @Override
         public String meth(){
+
             return "Method is overridden in Extended class B";
         }
     }
